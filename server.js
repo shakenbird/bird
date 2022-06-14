@@ -15,7 +15,7 @@ server.register(rawBody, {
     runFirst: true,
   });
 
-const guildId = "889384154536480811";
+const guildId = "848630165319581717";
 
 const response = await fetch(
 `https://discord.com/api/v8/applications/${process.env.APPLICATION_ID}/guilds/${guildId}/commands`,
